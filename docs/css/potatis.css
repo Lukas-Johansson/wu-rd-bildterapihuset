@@ -40,12 +40,12 @@ header {
 .logo {
   cursor: pointer;
   margin-right: auto;
-  width: 5%;
-  height: 5%;
+  width: 4rem;
 }
 
 .nav_links {
   list-style: none;
+  
 }
 
 .nav_links li {
@@ -94,7 +94,14 @@ button:hover {
     display: flex;
     align-items: center;
     margin-top: 2rem;
+    position: relative;
 }
+
+.gun>a {
+  position: absolute;
+  right:0px;
+}
+
 
 .gurkaburkalurka {
     margin-right: 20rem;
@@ -104,4 +111,20 @@ button:hover {
 main {
     width: 50%;
     margin: auto;
+}
+
+@media (max-width : 576px) {
+  .gun>a {
+    position: relative;
+  }
+}
+
+.cta {
+  position: relative;
+  white-space: nowrap;
+}
+
+.omrd {
+  display: flex;
+  align-items: center;
 }
