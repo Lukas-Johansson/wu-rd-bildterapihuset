@@ -7,3 +7,8 @@ Idag så har jag fixat en bakgrund och använt mig av photoshop för att lägga 
     2022/02/10
 
 Idag så har jag börjat på om oss tabben där det är flertal av personer i en lista. Samt så har jag fixat footern och försökt fixa nav logan att länka tillbaka till landing sidan.
+
+# Vecka ? 
+    2022/02/24
+
+Har fixar mer flickar för sidan samt fixat upp den senaste som är kontakter och börjat fixa logan så man kan komma till landing pagen med att klicka på den
