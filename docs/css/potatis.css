@@ -7,6 +7,10 @@ h1, h2, h3, h4, p {
     font-weight: 400;
 }
 
+p {
+  color: black;
+}
+
 
 * {
   box-sizing: border-box;
@@ -111,6 +115,7 @@ button:hover {
 main {
     width: 50%;
     margin: auto;
+
 }
 
 @media (max-width : 576px) {
@@ -127,4 +132,8 @@ main {
 .omrd {
   display: flex;
   align-items: center;
+}
+
+.stor {
+  justify-content: space-between;
 }
