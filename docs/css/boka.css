@@ -8,37 +8,37 @@ h1, h2, h3, h4, p {
 }
 
 p {
-color: black;
+  color: black;
 }
 
 
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li, a, button {
-font-family: 'Coustard', serif;
-font-weight: 500;
-font-size: 16px;
-color: #edf0f1;
-text-decoration: none;
+  font-family: 'Coustard', serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
 }
 
 header {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding: 10px 10%;
-color: #ffffff;
-background-color: #416b31;
-display: flex;
-align-items: center;
-position: sticky;
-top: 0px;
-box-shadow: 0rem 0rem 0.5rem #2e2e2e;
-z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+  color: #ffffff;
+  background-color: #416b31;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0rem 0rem 0.5rem #2e2e2e;
+  z-index: 1;
 }
 
 .logo {
@@ -52,43 +52,43 @@ a {
 }
 
 .nav_links {
-list-style: none;
+  list-style: none;
 
 }
 
 .nav_links li {
-display: inline-block;
-padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav_links li a {
-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-color: black;
+  color: black;
 }
 
 button {
-padding: 9px 25px;
-background-color: rgba(0,136,169,1);
-border: none;
-border-radius: 50px;
-cursor: pointer;
-transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
-background-color: rgba(0,136,169,0.8);
+  background-color: rgba(0,136,169,0.8);
 }
 
 .footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-color: rgb(255, 255, 255);
-text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
 
 }
 
@@ -101,20 +101,18 @@ text-align: center;
 }
 
 .gun>a {
-position: absolute;
-right:0px;
+  position: absolute;
+  right:0px;
 }
 
 
 .gurkaburkalurka {
-  margin-right: 20rem;
-  margin-left: 4rem;
+
 }
 
 main {
-  width: 50%;
+  width: 80%;
   margin: auto;
-
 }
 
 @media (max-width : 576px) {
@@ -124,15 +122,19 @@ main {
 }
 
 .cta {
-position: relative;
-white-space: nowrap;
+  position: relative;
+  white-space: nowrap;
 }
 
 .omrd {
-display: flex;
-align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-right: 20rem;
+  margin-left: 4rem;
 }
 
 .stor {
-justify-content: space-between;
+  justify-content: space-between;
 }
